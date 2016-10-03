@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: lisp provide package
+# key: once
+# --
+;;; ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`} --- $1
+;;; commentary:
+;;; code:
+
+
+
+(provide '$0)
+
+;;; $1 ends here
+
